@@ -17,10 +17,10 @@ function generate() {
     return randomPassword
 }
 
-const generatedPassword1 = generate()
-const generatedPassword2 = generate()
+// const generatedPassword1 = generate()
+// const generatedPassword2 = generate()
 
 function passwords() {
-    password1.textContent = generatedPassword1
-    password2.textContent = generatedPassword2
+    password1.textContent = generate()
+    password2.textContent = generate()
 }
