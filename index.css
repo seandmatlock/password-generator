@@ -1,0 +1,46 @@
+body {
+    background: #1F2937;
+    margin: 0;
+    text-align: left;
+    padding: 0em 2em;
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    color: #D5D4D8;
+    padding-bottom: 2em;
+}
+
+button {
+    background: #10B981;
+    color: #ffffff;
+    border: none;
+    padding: .5em 1em;
+    border-radius: 6px;
+    margin-bottom: 1em;
+}
+
+hr {
+    height: 2px;
+    background-color: #273549;
+    border: none;
+}
+
+.boxContainers {
+    display: flex;
+    justify-content: space-between;
+}
+
+.passwordBoxes {
+    border-radius: 4px;
+    color: #55F991;
+    background: #273549;
+    min-width: 7em;
+    min-height: 1.1em;
+    text-align: center;
+    padding: .7em 3em;
+    margin: 10px 5px
+}
