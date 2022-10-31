@@ -17,9 +17,6 @@ function generate() {
     return randomPassword
 }
 
-// const generatedPassword1 = generate()
-// const generatedPassword2 = generate()
-
 function passwords() {
     password1.textContent = generate()
     password2.textContent = generate()
